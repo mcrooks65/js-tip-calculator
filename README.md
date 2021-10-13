@@ -1,2 +1,2 @@
-# JS-Tip-Calculator
-A simple Javascript Tip calctulator
+# js-tip-calculator
+A simple Javascript Tip calculator
