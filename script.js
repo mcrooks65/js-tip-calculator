@@ -13,7 +13,7 @@ var tipCalculateEvent = function()
 
     var solution = totalCost / billPayers;
 
-    document.getElementById("Solution").innerText = "Each person owes: " + solution;
+    document.getElementById("Solution").innerText = "Each person owes: " + solution.toFixed(2);
 };
 
 calcButton.addEventListener("click", tipCalculateEvent);
