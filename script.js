@@ -5,7 +5,7 @@ var calcButton = document.getElementById("calcButton");
 var tipCalculateEvent = function()
 {
     var mealCost = document.getElementById("mealCost").value;
-    var tipPercent = document.getElementById("tipPercent").value;
+    var tipPercent = document.getElementById("tipPercent").value / 100;
     var billPayers = document.getElementById("billPayers").value;
 
     var tipAmount = Number(mealCost) * Number(tipPercent);
